@@ -1,0 +1,491 @@
+{
+  "categories": [
+    {
+      "id": "events-milestones",
+      "icon": "🏗️",
+      "name": "Events & Milestones",
+      "subcategories": [
+        {
+          "id": "marriage-halls",
+          "name": "Marriage Halls",
+          "description": "Wedding venues with separate halls or halal catering experience.",
+          "tags": ["weddings", "venues", "halal catering", "separate halls"],
+          "services": [
+            {
+              "name": "Al-Noor Wedding Banqueting",
+              "address": "142 Pollokshaws Rd, Glasgow G41",
+              "phone": "0141 423 0000",
+              "website": "",
+              "notes": "Dedicated halal wedding hall with separate male/female facilities."
+            },
+            {
+              "name": "The Kelvin Suite",
+              "address": "City Centre, Glasgow G1",
+              "phone": "0141 555 1234",
+              "website": "",
+              "notes": "Fully halal-catered function suite available for hire."
+            }
+          ]
+        },
+        {
+          "id": "catering-decor",
+          "name": "Catering & Decor",
+          "description": "Stage decor, HMC-certified wedding caterers, and wedding card printers.",
+          "tags": ["catering", "HMC", "stage decor", "wedding cards", "printers"],
+          "services": [
+            {
+              "name": "Bismillah Caterers Glasgow",
+              "address": "Govanhill, Glasgow G42",
+              "phone": "0141 422 5000",
+              "website": "",
+              "notes": "HMC-certified catering for weddings and corporate events."
+            },
+            {
+              "name": "Nikkah Decor & Styling",
+              "address": "Shawlands, Glasgow G43",
+              "phone": "07900 112233",
+              "website": "",
+              "notes": "Stage decor, floral arrangements, and full wedding styling packages."
+            },
+            {
+              "name": "Islamic Wedding Cards Glasgow",
+              "address": "Online / Glasgow G1",
+              "phone": "07800 445566",
+              "website": "",
+              "notes": "Bespoke Islamic wedding invitation printing and design."
+            }
+          ]
+        },
+        {
+          "id": "funeral-services",
+          "name": "Funeral Services",
+          "description": "Janazah arrangements, washing facilities (Ghusl), and local burial plots.",
+          "tags": ["janazah", "ghusl", "burial", "funeral", "Islamic"],
+          "services": [
+            {
+              "name": "Glasgow Central Mosque Funeral Service",
+              "address": "Gorbals St, Glasgow G5 9TP",
+              "phone": "0141 429 3132",
+              "website": "https://www.centralmosque.co.uk",
+              "notes": "Janazah prayers, ghusl facilities, and coordination with burial grounds."
+            },
+            {
+              "name": "Linn Cemetery — Muslim Section",
+              "address": "Linn Park, Glasgow G44",
+              "phone": "0141 287 2000",
+              "website": "",
+              "notes": "Dedicated Muslim burial section managed by Glasgow City Council."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faith-education",
+      "icon": "🕋",
+      "name": "Faith & Education",
+      "subcategories": [
+        {
+          "id": "mosques",
+          "name": "Mosques",
+          "description": "Locations, prayer times, and Jumu'ah (Friday) prayer info.",
+          "tags": ["mosque", "masjid", "prayer times", "jumu'ah", "Friday prayer"],
+          "services": [
+            {
+              "name": "Glasgow Central Mosque",
+              "address": "Gorbals St, Glasgow G5 9TP",
+              "phone": "0141 429 3132",
+              "website": "https://www.centralmosque.co.uk",
+              "notes": "Main mosque serving Glasgow. Friday prayer at 1:15 PM (check website for seasonal changes)."
+            },
+            {
+              "name": "Masjid al-Noor (Pollokshields)",
+              "address": "Forth St, Glasgow G41",
+              "phone": "0141 423 0000",
+              "website": "",
+              "notes": "Serves the Pollokshields community. Five daily prayers and Jumu'ah."
+            },
+            {
+              "name": "Mosque & Islamic Centre of Strathclyde",
+              "address": "62 Berkeley St, Glasgow G3",
+              "phone": "0141 332 4411",
+              "website": "",
+              "notes": "City-centre mosque for students and professionals."
+            },
+            {
+              "name": "Masjid Hamza (Govanhill)",
+              "address": "Calder St, Glasgow G42",
+              "phone": "0141 423 1234",
+              "website": "",
+              "notes": "Local community mosque with daily Salah and Qur'an classes."
+            }
+          ]
+        },
+        {
+          "id": "madrasas",
+          "name": "Madrasas",
+          "description": "After-school Quran classes for children.",
+          "tags": ["madrasa", "quran", "children", "after-school", "islamic education"],
+          "services": [
+            {
+              "name": "Al-Furqan Academy",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "07700 900100",
+              "website": "",
+              "notes": "After-school Qur'an and Islamic studies for ages 5–16."
+            },
+            {
+              "name": "Noor-ul-Islam Madrasa",
+              "address": "Govanhill, Glasgow G42",
+              "phone": "07700 900200",
+              "website": "",
+              "notes": "Evening classes, Tajweed, and Islamic morals for children."
+            }
+          ]
+        },
+        {
+          "id": "islamic-tutors",
+          "name": "Islamic Tutors",
+          "description": "Private 1-on-1 Arabic or Tajweed teachers (online and in-person).",
+          "tags": ["tutor", "arabic", "tajweed", "1-on-1", "online", "in-person"],
+          "services": [
+            {
+              "name": "Sheikh Ahmad — Arabic & Tajweed",
+              "address": "Online / Glasgow G1",
+              "phone": "07800 100200",
+              "website": "",
+              "notes": "Qualified tutor offering 1-on-1 Tajweed and Arabic sessions online and in person."
+            },
+            {
+              "name": "Sisters' Quran Circle",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "07800 100300",
+              "website": "",
+              "notes": "Female tutor offering Quran recitation and Tajweed for sisters."
+            }
+          ]
+        },
+        {
+          "id": "new-to-islam",
+          "name": "New to Islam",
+          "description": "Resources and support groups for reverts.",
+          "tags": ["revert", "convert", "new muslim", "support", "resources"],
+          "services": [
+            {
+              "name": "Glasgow Central Mosque — Revert Support",
+              "address": "Gorbals St, Glasgow G5 9TP",
+              "phone": "0141 429 3132",
+              "website": "https://www.centralmosque.co.uk",
+              "notes": "Dedicated support for new Muslims: Shahadah witness, mentoring, starter packs."
+            },
+            {
+              "name": "New Muslim Scotland",
+              "address": "Online / Glasgow",
+              "phone": "",
+              "website": "",
+              "notes": "Community group providing peer support, reading materials, and regular meet-ups for reverts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance-professional",
+      "icon": "💰",
+      "name": "Finance & Professional",
+      "subcategories": [
+        {
+          "id": "islamic-finance",
+          "name": "Islamic Finance",
+          "description": "Sharia-compliant mortgages, business loans, and Zakat calculation services.",
+          "tags": ["sharia", "mortgage", "halal finance", "zakat", "business loan", "riba-free"],
+          "services": [
+            {
+              "name": "Al Rayan Bank — Glasgow",
+              "address": "Online / Scotland",
+              "phone": "0845 606 2000",
+              "website": "https://www.alrayanbank.co.uk",
+              "notes": "UK's oldest Islamic bank. Sharia-compliant home purchase plans and savings accounts."
+            },
+            {
+              "name": "Ansar Finance Group",
+              "address": "Online / UK",
+              "phone": "0161 248 9595",
+              "website": "https://www.ansarfinance.com",
+              "notes": "Islamic home finance and business loans for UK Muslims."
+            },
+            {
+              "name": "Zakat Calculator Scotland",
+              "address": "Online",
+              "phone": "",
+              "website": "",
+              "notes": "Free Zakat calculation guidance and nisab tables for Scottish-based Muslims."
+            }
+          ]
+        },
+        {
+          "id": "legal-solicitors",
+          "name": "Legal & Solicitors",
+          "description": "Experts in Islamic wills (Wasiyyah) and family law.",
+          "tags": ["wasiyyah", "Islamic will", "family law", "solicitor", "legal"],
+          "services": [
+            {
+              "name": "Aman Legal Services",
+              "address": "Sauchiehall St, Glasgow G2",
+              "phone": "0141 332 7000",
+              "website": "",
+              "notes": "Specialists in Wasiyyah drafting, Islamic inheritance, and family law."
+            },
+            {
+              "name": "Crescent Law Scotland",
+              "address": "Glasgow City Centre, G1",
+              "phone": "0141 200 1234",
+              "website": "",
+              "notes": "Muslim-sensitive solicitors for wills, matrimonial, and property matters."
+            }
+          ]
+        },
+        {
+          "id": "accountants",
+          "name": "Accountants",
+          "description": "Muslim-owned firms for local business support.",
+          "tags": ["accountant", "Muslim-owned", "business", "tax", "bookkeeping"],
+          "services": [
+            {
+              "name": "Barakah Accounting Glasgow",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "0141 420 5000",
+              "website": "",
+              "notes": "Muslim-run accountancy firm specialising in SMEs, self-assessment, and VAT returns."
+            },
+            {
+              "name": "Glasgow Muslim Business Hub",
+              "address": "City Centre, Glasgow G2",
+              "phone": "07900 600700",
+              "website": "",
+              "notes": "Business mentoring, bookkeeping, and accounting for Muslim entrepreneurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community-youth",
+      "icon": "🤝",
+      "name": "Community & Youth",
+      "subcategories": [
+        {
+          "id": "youth-programs",
+          "name": "Youth Programs",
+          "description": "Football leagues, scouts, and coding clubs for Muslim youth.",
+          "tags": ["youth", "football", "scouts", "coding", "sports", "Muslim youth"],
+          "services": [
+            {
+              "name": "Muslim Youth Scotland",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "07700 800900",
+              "website": "",
+              "notes": "Football leagues, bowling nights, and leadership workshops for Muslim young people."
+            },
+            {
+              "name": "Glasgow Islamic Scouts",
+              "address": "Govanhill, Glasgow G42",
+              "phone": "07700 801000",
+              "website": "",
+              "notes": "Scouting group for Muslim youth with Islamic ethos. Ages 6–18."
+            },
+            {
+              "name": "Code Muslim — Glasgow",
+              "address": "Online / Glasgow",
+              "phone": "",
+              "website": "",
+              "notes": "Free coding and digital skills club for Muslim teenagers in Glasgow."
+            }
+          ]
+        },
+        {
+          "id": "charities",
+          "name": "Charities",
+          "description": "Local Glasgow food banks and international aid offices based in the city.",
+          "tags": ["charity", "food bank", "aid", "zakat", "sadaqah", "donation"],
+          "services": [
+            {
+              "name": "Human Appeal Scotland",
+              "address": "Glasgow G1",
+              "phone": "0161 225 0225",
+              "website": "https://www.humanappeal.org.uk",
+              "notes": "International aid charity with Scotland presence. Emergency relief and development projects."
+            },
+            {
+              "name": "Muslim Welfare House Glasgow",
+              "address": "Gorbals, Glasgow G5",
+              "phone": "0141 429 0000",
+              "website": "",
+              "notes": "Local food bank, welfare support, and community outreach."
+            },
+            {
+              "name": "Islamic Relief Scotland",
+              "address": "Glasgow G2",
+              "phone": "0121 605 5555",
+              "website": "https://www.islamic-relief.org.uk",
+              "notes": "International humanitarian organisation with Scotland office."
+            }
+          ]
+        },
+        {
+          "id": "womens-circles",
+          "name": "Women's Circles",
+          "description": "Private social and support groups for sisters.",
+          "tags": ["sisters", "women", "circle", "support", "social"],
+          "services": [
+            {
+              "name": "Sisters Connect Glasgow",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "07800 700800",
+              "website": "",
+              "notes": "Weekly halaqa, social events, and support network exclusively for Muslim women."
+            },
+            {
+              "name": "Muslim Women's Association Scotland",
+              "address": "Glasgow G2",
+              "phone": "0141 204 0000",
+              "website": "",
+              "notes": "Advocacy, social events, and welfare support for Muslim women in Scotland."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-wellness",
+      "icon": "🌿",
+      "name": "Health & Wellness",
+      "subcategories": [
+        {
+          "id": "counseling",
+          "name": "Counseling",
+          "description": "Faith-based mental health support and marriage guidance.",
+          "tags": ["counseling", "mental health", "marriage guidance", "therapy", "faith-based"],
+          "services": [
+            {
+              "name": "Ihsan Counselling",
+              "address": "Online / Glasgow",
+              "phone": "07700 300400",
+              "website": "",
+              "notes": "Confidential faith-based counselling for individuals and couples. Muslim therapists."
+            },
+            {
+              "name": "Naseehah Marriage Guidance",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "07700 300500",
+              "website": "",
+              "notes": "Pre-marital counselling and marriage mediation services based on Islamic principles."
+            }
+          ]
+        },
+        {
+          "id": "hijama-clinics",
+          "name": "Hijama Clinics",
+          "description": "Cupping therapy and holistic Sunnah health practices.",
+          "tags": ["hijama", "cupping", "sunnah", "holistic", "therapy"],
+          "services": [
+            {
+              "name": "Al-Hijama Glasgow",
+              "address": "Shawlands, Glasgow G43",
+              "phone": "07800 500600",
+              "website": "",
+              "notes": "Certified Hijama (wet cupping) therapy. Separate appointments for brothers and sisters."
+            },
+            {
+              "name": "Sunnah Wellness Clinic",
+              "address": "Govanhill, Glasgow G42",
+              "phone": "07800 500700",
+              "website": "",
+              "notes": "Hijama, herbal remedies, and holistic wellness based on Prophetic medicine."
+            }
+          ]
+        },
+        {
+          "id": "muslim-friendly-gyms",
+          "name": "Muslim-Friendly Gyms",
+          "description": "Places with private hours or female-only sections.",
+          "tags": ["gym", "fitness", "female-only", "private hours", "Muslim-friendly"],
+          "services": [
+            {
+              "name": "Sisters' Fitness Glasgow",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "0141 420 1000",
+              "website": "",
+              "notes": "Female-only gym with no mixed-gender sessions. Hijab-friendly environment."
+            },
+            {
+              "name": "Ummah Active",
+              "address": "South Side, Glasgow G42",
+              "phone": "07700 400500",
+              "website": "",
+              "notes": "Mixed gym with dedicated female-only hours and sports programmes for Muslim youth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global-online",
+      "icon": "🌍",
+      "name": "Global & Online Services",
+      "subcategories": [
+        {
+          "id": "hajj-umrah",
+          "name": "Hajj & Umrah",
+          "description": "Verified travel agents in Glasgow for pilgrimage.",
+          "tags": ["hajj", "umrah", "pilgrimage", "travel agent", "Makkah", "Madinah"],
+          "services": [
+            {
+              "name": "Baytul Aman Travel",
+              "address": "Pollokshields, Glasgow G41",
+              "phone": "0141 423 0001",
+              "website": "",
+              "notes": "ATOL-protected Hajj and Umrah packages from Glasgow. Group and private trips."
+            },
+            {
+              "name": "Al-Safar Hajj & Umrah",
+              "address": "City Centre, Glasgow G2",
+              "phone": "0141 248 9000",
+              "website": "",
+              "notes": "Verified travel agent specialising in economy and VIP Umrah packages year-round."
+            }
+          ]
+        },
+        {
+          "id": "e-bazaar",
+          "name": "E-Bazaar",
+          "description": "Local businesses selling Abayas, Modest wear, and Islamic gifts online.",
+          "tags": ["abaya", "modest wear", "Islamic gifts", "online shopping", "e-commerce"],
+          "services": [
+            {
+              "name": "Modesty Boutique Glasgow",
+              "address": "Online / Pollokshields G41",
+              "phone": "07800 200300",
+              "website": "",
+              "notes": "Abayas, hijabs, modest fashion, and Islamic gifts. Local Glasgow-based online store."
+            },
+            {
+              "name": "Ummah Gifts",
+              "address": "Online / Glasgow",
+              "phone": "07800 200400",
+              "website": "",
+              "notes": "Islamic art, Quran stands, prayer mats, and personalised Islamic gifts delivered across Scotland."
+            },
+            {
+              "name": "Noor Modest Wear",
+              "address": "Online / Glasgow G42",
+              "phone": "07800 200500",
+              "website": "",
+              "notes": "Contemporary modest fashion for women, including sportswear and occasionwear."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
