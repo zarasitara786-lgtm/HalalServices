@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="HalalServices — a comprehensive directory of halal businesses, mosques, Islamic schools, community groups, and professional services in Glasgow." />
+  <title>HalalServices Glasgow — Your Halal Community Directory</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg navbar-halal sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-5" href="#">
+      🌙 HalalServices
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNav"
+      aria-controls="mainNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#section-events-milestones">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-faith-education">Faith</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-finance-professional">Finance</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-community-youth">Community</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-health-wellness">Health</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-global-online">Global</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════ -->
+<header class="hero-section">
+  <div class="container position-relative">
+    <div class="hero-badge">🕌 Glasgow's Halal Directory</div>
+    <h1>HalalServices</h1>
+    <p class="lead">
+      Discover trusted halal businesses, mosques, Islamic education, community
+      groups, and professional services across Glasgow — all in one place.
+    </p>
+
+    <!-- Search -->
+    <div class="search-wrapper">
+      <input
+        type="search"
+        id="search-input"
+        class="form-control"
+        placeholder="Search services, e.g. Hijama, Umrah, solicitor…"
+        aria-label="Search services"
+      />
+      <span class="search-icon" aria-hidden="true">🔍</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════════
+     STATS BAR
+═══════════════════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="row justify-content-center text-center g-2">
+      <div class="col-auto">
+        <div class="stat-item">
+          <div class="stat-num" id="stat-categories">6</div>
+          <div class="stat-label">Categories</div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="stat-item">
+          <div class="stat-num" id="stat-subcategories">18</div>
+          <div class="stat-label">Service Types</div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="stat-item">
+          <div class="stat-num" id="stat-services">40+</div>
+          <div class="stat-label">Listings</div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="stat-item">
+          <div class="stat-num">Glasgow</div>
+          <div class="stat-label">City</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     CATEGORY OVERVIEW CARDS
+═══════════════════════════════════════════════ -->
+<section class="container my-5">
+  <h2 class="section-heading text-center">Browse by Category</h2>
+  <p class="section-subheading text-center">Choose a category below or use the search bar to find any service.</p>
+
+  <div class="row g-3 justify-content-center">
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-events-milestones" class="category-card text-center">
+        <span class="category-icon">🏗️</span>
+        <h3>Events &amp; Milestones</h3>
+        <p>Weddings, catering, funeral services</p>
+        <span class="subcategory-count">3 types</span>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-faith-education" class="category-card text-center">
+        <span class="category-icon">🕋</span>
+        <h3>Faith &amp; Education</h3>
+        <p>Mosques, madrasas, Islamic tutors</p>
+        <span class="subcategory-count">4 types</span>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-finance-professional" class="category-card text-center">
+        <span class="category-icon">💰</span>
+        <h3>Finance &amp; Professional</h3>
+        <p>Islamic finance, legal, accountants</p>
+        <span class="subcategory-count">3 types</span>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-community-youth" class="category-card text-center">
+        <span class="category-icon">🤝</span>
+        <h3>Community &amp; Youth</h3>
+        <p>Youth programs, charities, sisters</p>
+        <span class="subcategory-count">3 types</span>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-health-wellness" class="category-card text-center">
+        <span class="category-icon">🌿</span>
+        <h3>Health &amp; Wellness</h3>
+        <p>Counseling, hijama, gyms</p>
+        <span class="subcategory-count">3 types</span>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="#section-global-online" class="category-card text-center">
+        <span class="category-icon">🌍</span>
+        <h3>Global &amp; Online</h3>
+        <p>Hajj &amp; Umrah, e-bazaar</p>
+        <span class="subcategory-count">2 types</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     FILTER BAR
+═══════════════════════════════════════════════ -->
+<div class="container mb-2">
+  <div class="filter-bar" id="category-nav" role="toolbar" aria-label="Filter by category">
+    <!-- Populated by app.js -->
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════
+     MAIN CONTENT — SERVICE LISTINGS
+═══════════════════════════════════════════════ -->
+<main class="container pb-5" id="main-content">
+  <!-- No results message -->
+  <div id="no-results">
+    <div class="emoji">🔍</div>
+    <h3>No results found</h3>
+    <p class="text-muted">Try a different search term or browse all categories.</p>
+    <button
+      class="btn btn-outline-success mt-2"
+      onclick="document.getElementById('search-input').value=''; document.getElementById('search-input').dispatchEvent(new Event('input'));"
+    >
+      Clear search
+    </button>
+  </div>
+
+  <!-- Service sections injected by app.js -->
+  <div id="services-container"></div>
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════ -->
+<footer class="footer-halal">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h5>🌙 HalalServices</h5>
+        <p style="font-size:0.9rem;line-height:1.7">
+          A community-maintained directory of halal businesses and services across Glasgow.
+          Serving the Muslim community since 2024.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#section-events-milestones">🏗️ Events &amp; Milestones</a></li>
+          <li><a href="#section-faith-education">🕋 Faith &amp; Education</a></li>
+          <li><a href="#section-finance-professional">💰 Finance &amp; Professional</a></li>
+          <li><a href="#section-community-youth">🤝 Community &amp; Youth</a></li>
+          <li><a href="#section-health-wellness">🌿 Health &amp; Wellness</a></li>
+          <li><a href="#section-global-online">🌍 Global &amp; Online</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>About</h5>
+        <p style="font-size:0.9rem;line-height:1.7">
+          Listings are community-contributed. If you would like to add or update a listing,
+          please open an issue or pull request on
+          <a href="https://github.com/zarasitara786-lgtm/HalalServices" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+        <p style="font-size:0.88rem;color:rgba(255,255,255,0.5)">
+          ⚠️ Always verify contact details before visiting.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 HalalServices Glasgow. Built with ❤️ for the Glasgow Muslim community.
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<a id="back-to-top" class="back-to-top" href="#" aria-label="Back to top" title="Back to top">↑</a>
+
+<!-- Bootstrap 5 JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmTA66rEbeiQ2aYQPcQeDreYMPZl"
+  crossorigin="anonymous"
+></script>
+
+<!-- App -->
+<script src="js/app.js"></script>
+</body>
+</html>
