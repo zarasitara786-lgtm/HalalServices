@@ -1,0 +1,282 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Events & Milestones",
+      "goal": "Helping users plan life's biggest moments.",
+      "subcategories": [
+        {
+          "name": "Marriage Halls & Venues",
+          "services": [
+            {
+              "name": "Pasha Glasgow (Events Wing)",
+              "address": "48 North Frederick St, G1 2BS",
+              "details": {
+                "halls": "Separate halls available",
+                "meat": "HMC-sourced meat"
+              }
+            },
+            {
+              "name": "The Hidden Gardens (Outdoor/Intimate)",
+              "address": "25 Albert Dr, G41 2PE",
+              "details": {
+                "facilities": "Prayer room nearby",
+                "environment": "Non-alcohol environment"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Catering & Decor",
+          "services": [
+            {
+              "name": "Pasha Catering",
+              "address": "Glasgow",
+              "details": {
+                "description": "Fully managed halal wedding services",
+                "cuisine": "Middle Eastern cuisine",
+                "capacity": 250
+              }
+            }
+          ]
+        },
+        {
+          "name": "Funeral Services",
+          "services": [
+            {
+              "name": "Glasgow Central Mosque (Funeral Dept)",
+              "address": "1 Mosque Avenue, G5 9TA",
+              "details": {
+                "availability": "24/7 Service",
+                "facilities": ["Mortuary", "Ghusl facilities", "International transfers"]
+              }
+            },
+            {
+              "name": "Linn & Cathcart Cemeteries",
+              "address": "Glasgow",
+              "details": {
+                "description": "Dedicated Muslim burial sections",
+                "locations": [
+                  { "name": "Linn", "area": "Castlemilk" },
+                  { "name": "Cathcart", "area": "Netherlee" }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Faith & Education",
+      "goal": "The heart of the community.",
+      "subcategories": [
+        {
+          "name": "Mosques (Masjids)",
+          "services": [
+            {
+              "name": "Glasgow Central Mosque",
+              "address": "1 Mosque Avenue, G5 9TA",
+              "details": {
+                "description": "Largest in Scotland",
+                "facilities": "Radio transmitter (Receiver frequency available)"
+              }
+            },
+            {
+              "name": "Ibrahim Masjid (Madrassa Arabia Islamia)",
+              "address": "20-22 Pollokshaws Rd, G41 1PW",
+              "details": {
+                "services": ["Daily prayers", "Ramadhan Iftar"],
+                "madrassa_since": 1984
+              }
+            }
+          ]
+        },
+        {
+          "name": "Madrassas & Tutors",
+          "services": [
+            {
+              "name": "Madrassa Arabia Islamia",
+              "address": "20-22 Pollokshaws Rd, G41 1PW",
+              "details": {
+                "note": "Integrated within Ibrahim Masjid",
+                "subjects": ["Quran Tajweed", "Islamic Jurisprudence"]
+              }
+            },
+            {
+              "name": "Amina Resource Centre (Women's Education)",
+              "address": "50 Darnley St, G41 2SE",
+              "details": {
+                "classes": ["ESOL classes", "Digital skills", "Adult learning"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Finance & Professional",
+      "goal": "Keeping the community's wealth Sharia-compliant.",
+      "subcategories": [
+        {
+          "name": "Islamic Finance & Mortgages",
+          "services": [
+            {
+              "name": "Gilson Gray (Legal/Finance)",
+              "address": "160 West George St, G2 2HG",
+              "details": {
+                "specialisation": "Sharia-compliant property law and home financing"
+              }
+            },
+            {
+              "name": "Taylor Rose Solicitors",
+              "address": "National firm with Glasgow presence",
+              "details": {
+                "structures": ["Ijara", "Diminishing Musharaka"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Accountants & Legal",
+          "services": [
+            {
+              "name": "Ethical Finance Scotland",
+              "address": "Glasgow",
+              "details": {
+                "services": ["Zakat calculation support", "Sharia-compliant business advisory"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Community & Youth",
+      "goal": "Supporting the next generation.",
+      "subcategories": [
+        {
+          "name": "Youth Programs",
+          "services": [
+            {
+              "name": "Glasgow Muslim Football League",
+              "address": "Various local pitches",
+              "details": {
+                "programs": ["Youth leagues", "Weekend tournaments"]
+              }
+            },
+            {
+              "name": "Youth Groups at Central Mosque",
+              "address": "1 Mosque Avenue, G5 9TA",
+              "details": {
+                "programs": ["Summer camps", "Social nights for boys and girls"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Charities & Women's Circles",
+          "services": [
+            {
+              "name": "Amina Muslim Women's Resource Centre",
+              "address": "50 Darnley St, G41 2SE",
+              "details": {
+                "helpline": "0808 801 0301",
+                "services": ["Violence against women support", "Social wellbeing"]
+              }
+            },
+            {
+              "name": "Islamic Relief Scotland",
+              "address": "168 Albert Dr, G41 2NH",
+              "details": {
+                "services": ["Local food bank distribution", "International aid"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Health & Wellness",
+      "goal": "Holistic and Sunnah-based health.",
+      "subcategories": [
+        {
+          "name": "Hijama & Cupping",
+          "services": [
+            {
+              "name": "Pure Remedy Hijama Clinic",
+              "address": "Glasgow",
+              "details": {
+                "description": "Scotland's 1st Hijama clinic",
+                "services": ["Wet cupping", "Lifestyle coaching", "NLP"]
+              }
+            },
+            {
+              "name": "Hijama Wala",
+              "address": "31 Portman St, G41 1EJ",
+              "details": {
+                "services": ["Traditional cupping therapy", "Physical therapy"]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Muslim-Friendly Gyms",
+          "services": [
+            {
+              "name": "The One Lounge (Ladies only)",
+              "address": "G44 3DA",
+              "details": {
+                "services": ["Private treatments", "Beauty", "Female-only wellness"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Global & Online Services",
+      "goal": "Connecting Glasgow to the world.",
+      "subcategories": [
+        {
+          "name": "Hajj & Umrah Agents",
+          "services": [
+            {
+              "name": "Al-Hidayah Travel",
+              "address": "Glasgow",
+              "details": {
+                "description": "Local Glasgow agents",
+                "accreditation": "ATOL protected",
+                "offerings": "Guided tours"
+              }
+            }
+          ]
+        },
+        {
+          "name": "E-Bazaar (Modest Wear)",
+          "services": [
+            {
+              "name": "Hayah Al-Muslimah",
+              "address": "Online / UK",
+              "details": {
+                "products": ["Abayas with pockets", "Hajj/Umrah specific clothing"]
+              }
+            },
+            {
+              "name": "Abaya Lounge",
+              "address": "Online / UK",
+              "details": {
+                "products": ["Luxury abayas"],
+                "shipping": "Fast UK dispatch"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
